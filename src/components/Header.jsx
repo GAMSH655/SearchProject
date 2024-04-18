@@ -12,10 +12,10 @@ const Header = () => {
          </div>
           <div className="searchBody">
             <div className="firstBox">
-        
-           <FaMicrophone className='microPhoneIcone'/>
-          
-           <input type="search" className='input' />
+                <div className='innerSpan'>
+                <FaMicrophone className='microPhoneIcone'/>
+                 <input type="search" className='input' />
+                </div>
             </div>
            
           </div>

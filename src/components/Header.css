@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -15,25 +19,43 @@
 }
 .searchBody{
     display: flex;
-    background-color: hotpink;
-    height: 80vh;
+    height: 100vh;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
 }
 .firstBox{
     height: 200px;
     width: 100%;
-    background-color: darkolivegreen;
-    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .input{
     border: none;
-    width: 60%;
-    padding: 10px;
-    outline: none;
-    position: relative;
+    padding: 15px;
+    width: 700px;
+   
 }
 .microPhoneIcone{
     position: absolute;
+    padding: 10px;
+}
+.innerSpan{
+  
+}
+@media only screen and (max-width:768px) {
+    .logoName{
+        padding-top: 30px;
+        font-size: 1.2rem;
+    }
+    .input{
+        border: none;
+        padding: 15px;
+        width: 350px;
+        margin-left: 0px;
+    }
+    .firstBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
