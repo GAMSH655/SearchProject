@@ -13,7 +13,7 @@ const Header = () => {
           <div className="searchBody">
             <div className="firstBox">
                 <div className='innerSpan'>
-                <FaMicrophone className='microPhoneIcone'/>
+                <button className='microPhoneIcone'> <FaMicrophone/></button>
                  <input type="search" className='input' />
                 </div>
             </div>
