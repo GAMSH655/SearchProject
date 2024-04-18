@@ -5,11 +5,13 @@
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.358);
+    transition: .5s ease-in all;
 }
 .logoIMG{
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     padding: 10px;
 }
 .logoName{
@@ -20,7 +22,6 @@
 .searchBody{
     display: flex;
     height: 100vh;
-    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
 }
 .firstBox{
     height: 200px;
@@ -28,11 +29,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .5s ease-in all;
+
 }
 .input{
     border: none;
     padding: 20px;
     width: 700px;
+    border-radius: 10px;
 }
 .microPhoneIcone{
     position: absolute;
@@ -41,6 +45,38 @@
     border: none;
     background-color: transparent;
     outline: none;
+}
+.chaneBg{
+    background-color:transparent;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+}
+.sunIcon{
+    /* color:black; */
+    color:black;
+}
+.moonIcon{
+    color: white;
+}
+.Bg{
+    background-color: black;
+    color: white;
+    transition: .5s ease-in all;
+}
+
+newBg{
+    background-color: wheat;
+    color: black;
+    transition: .5s ease-in all;
+    /* box-shadow: 1px 1px 1px 1px red; */
+}
+body {
+    background-image: url("../assets//mn.avif");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
 }
 
 @media only screen and (max-width:768px) {
