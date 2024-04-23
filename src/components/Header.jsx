@@ -17,7 +17,7 @@ const Header = () => {
          <div className="header" >
              <img src={logo} alt="" className='logoIMG' />
 
-             <h3 className='logoName'>sail search engines</h3>
+             <h3 className='logoName'>sail search engine</h3>
               <button className="chaneBg" onClick={handleBg}>
                  {
                   changeBg ?  <FaMoon  className={changeBg ? "moonIcon" : ""} /> :   <FaSun  className={changeBg ? "sunIcon" : ""}  />

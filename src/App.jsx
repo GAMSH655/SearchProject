@@ -5,7 +5,7 @@ import Result from "../src/components/Result"
 function App() {
   return (
     <>
-     <Header />
+     {/* <Header /> */}
      <Result/>
     </>
   )
